@@ -5,6 +5,8 @@ from typing import List
 REQUIREMENT_FILE_NAME="requirements.txt"
 HYPHEN_E_DOT = "-e ."
 
+
+#this function it will return a list of strings
 def get_requirements()->List[str]:
     
     with open(REQUIREMENT_FILE_NAME) as requirement_file:
@@ -19,9 +21,9 @@ def get_requirements()->List[str]:
 
 setup(
     name="sensor",
-    version="0.0.2",
-    author="ineuron",
-    author_email="avnish@ineuron.ai",
+    version="0.0.3",
+    author="shristi",
+    author_email="shristipr7@gmail.com",
     packages = find_packages(),
     install_requires=get_requirements(),
 )
