@@ -99,9 +99,4 @@ ECR_REPOSITORY_NAME=
 BUCKET_NAME=
 MONGO_DB_URL=
 ```
-<<<<<<< HEAD
 This changes is made by Shristi in VScode
-=======
-
-This is created by Shristi Priya
->>>>>>> d3fed418e512545ba20f500f9999af630b594d99
