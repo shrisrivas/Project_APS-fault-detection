@@ -3,7 +3,8 @@ import pandas as pd
 import json
 
 # provide the mongodb localhost url to connect python to mongodb
-client = pymongo.MongoClient("mongodb://localhost:27017")
+# client = pymongo.MongoClient("mongodb://localhost:27017")
+from sensor.config import mongo_client
 
 DATA_FILE_PATH=(r"C:\Users\Shristi\Desktop\Data Science\project\aps-fault-detection\data")
 DATABASE_NAME="aps"
@@ -19,7 +20,7 @@ if __name__=="__main__":
     json_record = list(json.loads(df.T.to_json()).values())
     print(json_record[0])
     #insert converted json record to mongo db
-    client[DATABASE_NAME][COLLECTION_NAME].insert_many(json_record)
+    mongo_client[DATABASE_NAME][COLLECTION_NAME].insert_many(json_record)
 
 
 
