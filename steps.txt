@@ -1,8 +1,0 @@
-1. 
-
-mongodb+srv://shristipriya:<XyRfM5CcwCO9P8yz>@cluster0.t0vrorn.mongodb.net/?retryWrites=true&w=majority
-
-shristipriya
-XyRfM5CcwCO9P8yz
-
-mongodb+srv://shristipriya:XyRfM5CcwCO9P8yz@cluster0.t0vrorn.mongodb.net/?retryWrites=true&w=majority
